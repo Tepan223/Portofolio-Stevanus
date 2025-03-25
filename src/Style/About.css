@@ -1,0 +1,12 @@
+.about{
+    display: flex;
+    border: 1px solid black;
+    width: 99%;
+    height: 595px;
+    border-radius: 25px;
+    margin-top: 90px;
+}
+.page-about{
+    display: flex;
+    justify-content: center;
+}
