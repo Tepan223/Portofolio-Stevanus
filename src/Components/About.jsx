@@ -12,7 +12,66 @@ function About() {
       </div>
       <div className='about'>
         <div className='about-content'>
-          <div></div>
+          <div className='content-about'>
+            <div className='text-content-about'>
+              <h1>Personal Information</h1>
+              <table>
+              <tr>
+                <td>Full Name</td>
+                <td>:</td>
+                <td>Stevanus Gabriel</td>
+              </tr>
+              <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td>Stevanus</td>
+              </tr>
+              <tr>
+                <td>Gender</td>
+                <td>:</td>
+                <td>Male</td>
+              </tr>
+              <tr>
+                <td>Place, Date of Birth </td>
+                <td>:</td>
+                <td>19 Oktober 2009, Jakarta</td>
+              </tr>
+              <tr>
+                <td>Age</td>
+                <td>:</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td>Address</td>
+                <td>:</td>
+                <td>Jl. Kebon Jeruk, Jakarta</td>
+              </tr>
+            </table>
+            <h1>Profile</h1>
+            <p>I am a passionate web developer with over 1 year of experience in building responsive websites. Mastering various web technologies,ranging from HTML, CSS, JavaScript.</p>
+            <h1>Education</h1>
+            <table>
+              <tr>
+                <td>SD Budi Bahasa</td>
+                <td>:</td>
+                <td>2013-2021, Jakarta</td>
+              </tr>
+              <tr>
+                <td>SMP Budi Bahasa</td>
+                <td> :</td>
+                <td>2021-2024, Jakarta</td>
+              </tr>
+              <tr>
+                <td>SMK Tri Ratna</td>
+                <td>:</td>
+                <td>2024-2027, Jakarta</td>
+              </tr>
+            </table>
+            </div>
+            <div className='skills'>
+              <h1>Skills</h1>
+            </div>
+          </div>
         </div>
       </div>
     </div>
