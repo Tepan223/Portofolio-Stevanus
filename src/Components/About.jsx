@@ -54,17 +54,17 @@ function About() {
               <tr>
                 <td>SD Budi Bahasa</td>
                 <td>:</td>
-                <td>2013-2021, Jakarta</td>
+                <td>Jakarta, 2013-2021</td>
               </tr>
               <tr>
                 <td>SMP Budi Bahasa</td>
                 <td> :</td>
-                <td>2021-2024, Jakarta</td>
+                <td>Jakarta, 2021-2024</td>
               </tr>
               <tr>
                 <td>SMK Tri Ratna</td>
                 <td>:</td>
-                <td>2024-2027, Jakarta</td>
+                <td>Jakarta, 2024-2027</td>
               </tr>
             </table>
             </div>
