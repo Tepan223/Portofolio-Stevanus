@@ -16,6 +16,9 @@ function Home() {
               <p>Web Developer</p>
               <p>As a Web Developer, I have a great interest in creating a functional website. With expertise in website development, I always try to create websites with the most attractive designs possible.</p>
               <a href="" download className='download'>Download CV</a>
+              <div contact>
+                
+              </div>
             </div>
             <div className='img-content-home'>
               <img src="/Profile.jpg" alt="" />

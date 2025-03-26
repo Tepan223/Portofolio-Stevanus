@@ -1,12 +1,17 @@
-.about{
+.about {
     display: flex;
-    border: 1px solid black;
-    width: 99%;
-    height: 595px;
-    border-radius: 25px;
-    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-.page-about{
+.about-content {
+    width: 90%; 
+    max-width: 1400px; 
+    background-color: #183B4E;
+    margin-top: 85px;
+    border-radius: 25px;
+    padding: 40px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }

@@ -10,26 +10,9 @@ function About() {
       <div>
         <Headers/>
       </div>
-      <div className='page-about'>
-        <div className='about'>
-          <div className='img-about'>
-            <img src="" alt="" />
-          </div>
-          <div className='about-me'>
-            <h1>About Me</h1>
-            <table>
-              <tr>
-                <td>Name</td>
-                <td>:</td>
-                <td>Tepan</td>
-              </tr>
-              <tr>
-                <td>Age</td>
-                <td>:</td>
-                <td>20</td>
-              </tr>
-            </table>
-          </div>
+      <div className='about'>
+        <div className='about-content'>
+          <div></div>
         </div>
       </div>
     </div>
