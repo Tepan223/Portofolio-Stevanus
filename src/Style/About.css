@@ -70,6 +70,59 @@
     margin-bottom: 20px; 
 }
 
+.skills {
+    flex: 1;
+    color: white;
+    min-width: 300px;
+    background-color: #183B4E;
+}
+
+.skills h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #183B4E;
+}
+
+.skill-line-1,
+.skill-line-2,
+.skill-line-3 {
+    display: flex;
+    justify-content: space-around;      
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #183B4E;
+}
+
+.skill-line-1 div,
+.skill-line-2 div,
+.skill-line-3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #183B4E;
+}
+
+.skill-line-1 img,
+.skill-line-2 img,
+.skill-line-3 img {
+    width: 80px; 
+    height: 80px; 
+    object-fit: contain;
+    margin-bottom: 10px;
+    background-color: #183B4E;
+}
+
+.skill-line-1 h1,
+.skill-line-2 h1,
+.skill-line-3 h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #183B4E;
+}
+
 @media (max-width: 768px) {
     .content-about {
         gap: 30px;

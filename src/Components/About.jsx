@@ -69,7 +69,49 @@ function About() {
             </table>
             </div>
             <div className='skills'>
-              <h1>Skills</h1>
+              <h1>Skill</h1>
+              <div className='skill-line-1'>
+                <div>
+                  <img src="/HTML.png" alt="HTML" />
+                  <h1>HTML</h1>
+                </div>
+                <div>
+                  <img src="/CSS.png" alt="CSS" />
+                  <h1>CSS</h1>
+                </div>
+                <div>
+                  <img src="/JS.png" alt="Java Script" />
+                  <h1>Java Script</h1>
+                </div>
+              </div>
+              <div className='skill-line-2'>
+                <div>
+                  <img src="/React.png" alt="React" />
+                  <h1>React</h1>
+                </div>
+                <div>
+                  <img src="/Vercel.png" alt="Vercel" />
+                  <h1>Vercel</h1>
+                </div>
+                <div>
+                  <img src="/GitHub.png" alt="GitHub" />
+                  <h1>GitHub</h1>
+                </div>
+              </div>
+              <div className='skill-line-3'>
+                <div>
+                  <img src="/Word.png" alt="Word" />
+                  <h1>Word</h1>
+                </div>
+                <div>
+                  <img src="/Excel.png" alt="Excel" />
+                  <h1>Excel</h1>
+                </div>
+                <div>
+                  <img src="/Canva.png" alt="Canva" />
+                  <h1>Canva</h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
