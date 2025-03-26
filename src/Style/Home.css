@@ -15,7 +15,6 @@
     background-color: #183B4E;
     margin-top: 85px;
     border-radius: 25px;
-    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,6 +25,8 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 30px;
+    border-radius: 25px;
     gap: 50px;
     background-color: #183B4E;
 }
