@@ -30,10 +30,34 @@
     background-color: #183B4E;
 }
 
+.download {
+    display: inline-block;
+    background-color: #27548A;
+    color: #E0E0E0;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 4px;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: #F5EEDC -4px 4px 0 0;
+}
+
+.download:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(-2px, 2px);
+}
+
+.download:hover {
+    background-color: green;
+}
+
 .text-content-home {
     flex: 1.5; 
     color: white;
     min-width: 300px;
+    background-color: #183B4E;
 }
 
 .text-content-home h1 {
