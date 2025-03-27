@@ -12,6 +12,7 @@ function Headers() {
                 <nav><Link to="/" className="navLink">Home</Link></nav>
                 <nav><Link to="/about&skills "className="navLink">About & Skills</Link></nav>
                 <nav><Link to="/project" className="navLink">Project</Link></nav>
+                <nav><Link to="/Contact" className="navLink">Contact</Link></nav>
             </div>
         </div>
     );
