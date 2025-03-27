@@ -4,9 +4,10 @@
     align-items: center;
     padding: 20px;
 }
+
 .contact-home{
-    width: 90%; 
-    max-width: 1400px; 
+    width: 90%;
+    max-width: 1400px;
     background-color: #183B4E;
     margin-top: 85px;
     border-radius: 25px;
@@ -14,15 +15,19 @@
     align-items: center;
     justify-content: center;
 }
+
 .contact-content{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     flex-wrap: wrap; 
     gap: 50px; 
     padding: 30px; 
     border-radius: 25px;
     background-color: #183B4E;
+    justify-content: center;
 }
+
 .contact-left {
     background: #27548A;
     padding: 20px;
@@ -31,6 +36,7 @@
     text-align: center;
     max-width: 350px;
     margin: auto;
+    width: 50%; 
 }
 
 .contact-left img {
@@ -46,7 +52,6 @@
     margin: 10px 0 5px;
     color: #333;
     border-radius: 20px;
-
 }
 
 .contact-left p {
@@ -72,7 +77,6 @@
 .contact-left td:first-child {
     font-weight: bold;
     border-radius: 20px;
-
 }
 
 .contact-left div a {
@@ -94,5 +98,16 @@
 
 .contact-left div {
     padding: 10px;
+}
 
+.contact-right {
+    background: #183B4E;
+    width: 45%; /* Tambahkan lebar */
+}
+
+/* Tambahkan media queries jika perlu */
+@media (max-width: 768px) {
+    .contact-left, .contact-right {
+        width: 100%;
+    }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Headers from './Headers';
 import '../Style/Contact.css'
+import Email from './Email';
 
 function Contact() {
   return (
@@ -36,7 +37,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className='contact-right'>
-
+                  <Email/>
                 </div>
             </div>
         </div>
