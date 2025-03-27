@@ -1,11 +1,11 @@
-.contact{
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
 
-.contact-home{
+.contact-home {
     width: 90%;
     max-width: 1400px;
     background-color: #183B4E;
@@ -16,16 +16,15 @@
     justify-content: center;
 }
 
-.contact-content{
+.contact-content {
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-    gap: 50px; 
-    padding: 30px; 
+    justify-content: center; /* Ubah justify-content */
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
     border-radius: 25px;
     background-color: #183B4E;
-    justify-content: center;
 }
 
 .contact-left {
@@ -35,8 +34,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 350px;
-    margin: auto;
-    width: 50%; 
+    margin: 20px auto; /* Tambahkan margin atas dan bawah */
+    width: 100%; /* Ubah lebar menjadi 100% secara default */
 }
 
 .contact-left img {
@@ -102,12 +101,19 @@
 
 .contact-right {
     background: #183B4E;
-    width: 45%; /* Tambahkan lebar */
+    width: 100%; /* Ubah lebar menjadi 100% secara default */
+    margin: 20px auto; /* Tambahkan margin atas dan bawah */
 }
 
-/* Tambahkan media queries jika perlu */
-@media (max-width: 768px) {
+/* Media queries */
+@media (min-width: 768px) {
     .contact-left, .contact-right {
-        width: 100%;
+        width: 45%; /* Ubah lebar menjadi 45% untuk layar yang lebih besar */
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-content {
+        gap: 30px; /* Kurangi gap pada layar yang lebih kecil */
     }
 }
