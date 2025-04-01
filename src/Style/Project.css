@@ -1,0 +1,110 @@
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-content{
+    width: 90%;
+    max-width: 1400px;
+    background-color: #183B4E;
+    margin-top: 85px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-project{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 50px; 
+    padding: 30px; 
+    border-radius: 25px;
+    background-color: #183B4E;
+}
+
+.content-project h1 {
+    font-size: 2.5rem; 
+    color: #333; 
+    text-align: center;
+    background-color: #183B4E;
+    color: #ddd;
+    padding-bottom: 10px;
+  }
+  
+.line-project,
+.line-project-2,
+.line-project-3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: #183B4E;
+}
+
+.line-project div[class^="project "],
+.line-project-2 div[class^="project "],
+.line-project-3 div[class^="project "] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.line-project div[class^="project "] img,
+.line-project-2 div[class^="project "] img,
+.line-project-3 div[class^="project "] img {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.line-project div[class^="project "] h2,
+.line-project-2 div[class^="project "] h2,
+.line-project-3 div[class^="project "] h2 {
+  font-size: 1.2rem;
+  color: #555;
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+  .line-project div[class^="project "],
+  .line-project-2 div[class^="project "],
+  .line-project-3 div[class^="project "] {
+    width: 100%;
+  }
+}
+
+.edit-line{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #183B4E;
+}
+
+.line-project div[class^="project "]:hover,
+.line-project-2 div[class^="project "]:hover,
+.line-project-3 div[class^="project "]:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.line-project div[class^="project "] img:hover,
+.line-project-2 div[class^="project "] img:hover,
+.line-project-3 div[class^="project "] img:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+}
