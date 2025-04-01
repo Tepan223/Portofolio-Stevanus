@@ -32,8 +32,8 @@
     text-align: center;
     background-color: #183B4E;
     color: #ddd;
-    padding-bottom: 10px;
-  }
+    padding-bottom: 20px;
+}
   
 .line-project,
 .line-project-2,
@@ -70,6 +70,7 @@
   margin-bottom: 1rem;
   background-color: #e0e0e0;
   border-radius: 4px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .line-project div[class^="project "] h2,
